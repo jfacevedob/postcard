@@ -1,0 +1,99 @@
+body{ 
+    margin:0;
+    padding:0;
+    background:blue;
+    
+    }
+/******************************************************************************/
+/*                         contenedor padre                                   */
+/******************************************************************************/
+.flex-container{
+    display: flex;
+    justify-content: center; /*h*/
+    align-items: center;/*v*/
+    height: 100vh;/*alto del dispsodtivo*/
+    width: 100%;/*ancod del dispositivo*/
+    color: white;
+        
+}
+.flex-container>.tarjeta{
+    background-color: white;
+    color: black;
+    width: 700px;
+    height: 350px;
+}
+/******************************************************************************/
+/*                            Titulo y Logo                                   */
+/******************************************************************************/    
+.flex-titulo{
+    display: flex;
+    justify-content: space-between;/*h*/
+    /*border: 1px solid;*/ /*borde solido*/
+    width: 700px;
+    height: 80px;
+}
+.title{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    border: 1px solid black; 
+}
+.logo{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid black; 
+
+}
+/******************************************************************************/
+/*                            Textp e Imput                                   */
+/******************************************************************************/
+.flex-contenido{
+    marging: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    width: 650px;
+    height: 180px;
+}
+.texto{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 9px;
+    width: 50%;
+    text-align: justify;
+}
+.input {
+    display: flex;
+    flex-direction: column;
+    height: 10px;
+    width: 125px;
+    margin-top: -5px;
+    font-size: 10px;
+    color: rgb(161, 161, 161);
+}
+.derecho{
+    margin: 2px;
+    border-bottom: 1px solid rgb(223, 218, 218);
+}
+​
+​
+/**********************************************************/
+​
+/**********************************************************/
+/*                      Boton
+***********************************************************/
+.btn button{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 94px;
+  margin-top: 10px;
+  font-size: 9px;
+  background: rgb(209, 206, 206);
+  color: rgb(34, 33, 33);
+  font-family: 'Sofadi One', cursive;
+}
+
